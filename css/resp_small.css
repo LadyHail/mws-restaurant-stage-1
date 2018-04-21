@@ -53,6 +53,7 @@ nav h1 a {
 
 .inside #maincontent {
   padding-top: 80px;
+  width: 99%;
 }
 
 .inside #map-container {
@@ -71,10 +72,6 @@ nav h1 a {
 #restaurant-name {
   text-align: center;
   margin: 15px 0 5px;
-}
-
-#restaurant-img {
-  display: none;
 }
 
 #restaurant-cuisine {

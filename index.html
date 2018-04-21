@@ -20,7 +20,7 @@
   </header>
 
   <main id="maincontent">
-    <section id="map-container">
+    <section id="map-container" tabindex="0">
       <div id="map" role="application"></div>
     </section>
     <section>
@@ -29,7 +29,7 @@
         <select tabindex="1" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" aria-label="Select neighborhood">
           <option value="all">All Neighborhoods</option>
         </select>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-label="Select cuisine">
+        <select tabindex="2" id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-label="Select cuisine">
           <option value="all">All Cuisines</option>
         </select>
       </div>
